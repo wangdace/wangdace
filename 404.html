@@ -1,7 +1,26 @@
----
-layout:         page
-title:          Error！
----
-<h1>Sorry about the error: 404</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<p>And here's something else for you.</p>
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+     <script src="/js/jquery-1.8.2.min.js"></script>
+</head>
+<body>
+     <button type="button" width='100px' height='100px' id="button1">么么哒</button><br>
+     <p></p>
+     <button type="button" width='100px' height='100px' id="button2">棒棒哒</button>
+     <script>
+         $('#button1').click(function(){
+            location.href='ioshuilifeuserside://iosopen?123=321';
+         })
+          $('#button2').click(function(){
+            location.href='https://demo.jzabc.cn/123';
+         })
+     </script>
+</body>
+</html>
